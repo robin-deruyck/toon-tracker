@@ -4,6 +4,7 @@ import { MantineProvider } from '@mantine/core'
 import { Header } from '@/components/Header'
 import { Toolbar } from '@/components/Toolbar'
 import { Footer } from '@/components/Footer'
+import { Results } from '@/components/Results'
 
 export const App = () => {
   return (
@@ -12,6 +13,7 @@ export const App = () => {
         <div className="main-container">
           <Header />
           <Toolbar />
+          <Results />
           <Footer />
         </div>
       </ModalsProvider>
