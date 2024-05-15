@@ -7,7 +7,7 @@
   },
   "package": {
     "productName": "toon-tracker",
-    "version": "0.0.0"
+    "version": "../package.json"
   },
   "tauri": {
     "allowlist": {
@@ -20,8 +20,8 @@
     "windows": [
       {
         "title": "toon-tracker",
-        "width": 800,
-        "height": 600
+        "width": 1400,
+        "height": 800
       }
     ],
     "security": {
