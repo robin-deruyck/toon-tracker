@@ -1,5 +1,12 @@
 ## Changelog
 
+## [1.1.1](https://github.com/robin-deruyck/toon-tracker/compare/v1.1.0...v1.1.1) (2024-05-15)
+
+
+### Bug Fixes
+
+* fix missing type for WebtoonCard.tsx ([b27f5f2](https://github.com/robin-deruyck/toon-tracker/commit/b27f5f2786f3ccdee34be06417a0b5251af3d2e6))
+
 ## [1.1.0](https://github.com/robin-deruyck/toon-tracker/compare/v1.0.0...v1.1.0) (2024-05-15)
 
 
