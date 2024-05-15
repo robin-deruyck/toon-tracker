@@ -1,5 +1,5 @@
 .root {
   @mixin light {
-    background-color: var(--mantine-color-gray-0)
+    background-color: var(--mantine-color-gray-0);
   }
 }

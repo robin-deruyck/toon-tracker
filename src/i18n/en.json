@@ -2,12 +2,12 @@
   "app": {
     "global": {
       "form": {
-        "actions":{
+        "actions": {
           "new": "New",
           "confirm": "Confirm",
           "save": "Save",
           "delete": "Delete",
-          "cancel":  "Cancel",
+          "cancel": "Cancel",
           "edit": "Edit",
           "success": "Successfull operation !"
         },
