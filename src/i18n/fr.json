@@ -1,0 +1,94 @@
+{
+  "app": {
+    "global": {
+      "form": {
+        "actions": {
+          "new": "Nouveau",
+          "confirm": "Confirmer",
+          "save": "Sauvegarder",
+          "delete": "Supprimer",
+          "cancel": "Annuler",
+          "edit": "Modifier",
+          "success": "Opération réussie !"
+        },
+        "validation": {
+          "field": {
+            "required": "{{fieldName}} est requis",
+            "empty": "{{fieldName}} est vide",
+            "type": {
+              "string": "{{fieldName}} doit être du type {{type}}"
+            }
+          }
+        }
+      }
+    },
+    "header": {
+      "dark_mode_button": {
+        "aria_label_to_light": "Forcer le mode clair",
+        "aria_label_to_dark": "Forcer le mode sombre"
+      },
+      "language_selector": {
+        "selected": "Anglais",
+        "select": {
+          "english": "Sélectionnez la langue anglaise",
+          "french": "Sélectionnez la langue française"
+        }
+      }
+    },
+    "webtoon": {
+      "card": {
+        "menu": {
+          "favorite": {
+            "add": "Ajouter aux Favoris",
+            "remove": "Supprimer des favoris"
+          }
+        }
+      },
+      "modal": {
+        "add": {
+          "title": "Ajouter un nouveau webtoon"
+        },
+        "remove": {
+          "question": "Etes-vous sûr de vouloir supprimer ce webtoon ?"
+        }
+      },
+      "form": {
+        "fields": {
+          "name": {
+            "validation": "Veuillez fournir un nom !",
+            "placeholder": "Nom"
+          },
+          "lastReadChapter": {
+            "validation": "Merci de fournir le dernier chapitre lu !",
+            "placeholder": "Dernier chapitre lu"
+          },
+          "synopsis": {
+            "placeholder": "Résumé du webtoon"
+          },
+          "lastReadDate": {
+            "validation": "Veuillez entrer la date à laquelle vous avez fini de lire le dernier chapitre !",
+            "placeholder": "Date de dernière lecture"
+          },
+          "nbChapters": {
+            "placeholder": "Nombre de chapitres traduits"
+          },
+          "status": {
+            "placeholder": "Statut"
+          },
+          "link": {
+            "placeholder": "Lien de l'image webtoon"
+          },
+          "genders": {
+            "placeholder": "Choisissez les genres du webtoon"
+          },
+          "type": {
+            "placeholder": "Choisissez un type de webtoon"
+          },
+          "subNames": {
+            "placeholder": "Noms supplémentaires du webtoon"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "app": {
+    "global": {
+      "form": {
+        "actions":{
+          "new": "New",
+          "confirm": "Confirm",
+          "save": "Save",
+          "delete": "Delete",
+          "cancel":  "Cancel",
+          "edit": "Edit",
+          "success": "Successfull operation !"
+        },
+        "validation": {
+          "field": {
+            "required": "{{fieldName}} is required",
+            "empty": "{{fieldName}} is empty",
+            "type": {
+              "string": "{{fieldName}} must be of type {{type}}"
+            }
+          }
+        }
+      }
+    },
+    "header": {
+      "dark_mode_button": {
+        "aria_label_to_light": "Force light mode",
+        "aria_label_to_dark": "Force dark mode"
+      },
+      "language_selector": {
+        "selected": "English",
+        "select": {
+          "english": "Select english language",
+          "french": "Select french language"
+        }
+      }
+    },
+    "webtoon": {
+      "card": {
+        "menu": {
+          "favorite": {
+            "add": "Add to favorite",
+            "remove": "Remove from favorite"
+          }
+        }
+      },
+      "modal": {
+        "add": {
+          "title": "Add a new webtoon"
+        },
+        "remove": {
+          "question": "Are you sure you want to delete this webtoon ?"
+        }
+      },
+      "form": {
+        "fields": {
+          "name": {
+            "validation": "Please provide a name !",
+            "placeholder": "Name"
+          },
+          "lastReadChapter": {
+            "validation": "Please provide the last read chapter !",
+            "placeholder": "Last chapter you read"
+          },
+          "synopsis": {
+            "placeholder": "Webtoon synopsis"
+          },
+          "lastReadDate": {
+            "validation": "Please enter the date you finished reading the last chapter.",
+            "placeholder": "Last read Date"
+          },
+          "nbChapters": {
+            "placeholder": "Number of translated chapters"
+          },
+          "status": {
+            "placeholder": "Status"
+          },
+          "link": {
+            "placeholder": "Webtoon picture's link"
+          },
+          "genders": {
+            "placeholder": "Pick webtoon's genders"
+          },
+          "type": {
+            "placeholder": "Pick a webtoon type"
+          },
+          "subNames": {
+            "placeholder": "Webtoon additional names"
+          }
+        }
+      }
+    }
+  }
+}
