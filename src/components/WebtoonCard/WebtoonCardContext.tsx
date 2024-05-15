@@ -1,5 +1,5 @@
 import { createContext, PropsWithChildren, useContext } from 'react'
-import { WithWebtoon } from '@/types.ts'
+import { WithWebtoon } from '@/components/WebtoonCard/WebtoonCard.types.ts'
 
 const CardContext = createContext<WithWebtoon>({} as WithWebtoon)
 

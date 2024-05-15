@@ -3,7 +3,7 @@ import { WebtoonCardProvider } from './WebtoonCardContext.tsx'
 import { WebtoonCardDetails } from './WebtoonCardDetails.tsx'
 import { WebtoonCardPicture } from './WebtoonCardPicture.tsx'
 import { WebtoonCardHeader } from './WebtoonCardHeader.tsx'
-import { WithWebtoon } from '@/types.ts'
+import { WithWebtoon } from '@/components/WebtoonCard/WebtoonCard.types.ts'
 
 export const WebtoonCard = ({ webtoon }: WithWebtoon) => {
   return (
