@@ -13,7 +13,7 @@ export const Results = () => {
     load(webtoonByExample)
   }, [load, webtoonByExample])
 
-  if (!webtoons.length) return <NoWebtoons />
+  if (!webtoons.length && !Object.keys(webtoonByExample ?? {}).length) return <NoWebtoons />
 
   return (
     <ScrollArea>
