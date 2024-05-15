@@ -1,3 +1,4 @@
+/* noinspection ALL */
 .root {
     padding-top: rem(120px);
     padding-bottom: rem(120px);
@@ -8,7 +9,7 @@
 .inner {
     position: relative;
 }
-
+/* noinspection ALL */
 .content {
     padding-top: rem(220px);
     position: relative;
@@ -16,12 +17,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    @media (max-width: $mantine-breakpoint-sm) {
-        padding-top: rem(120px);
-    }
 }
 
+/* noinspection ALL */
 .title {
     font-family:
             Greycliff CF,
@@ -30,7 +28,7 @@
     font-weight: 900;
     font-size: rem(38px);
     color: var(--mantine-color-white);
-
+    /* noinspection ALL */
     @media (max-width: $mantine-breakpoint-sm) {
         font-size: rem(32px);
     }
@@ -40,6 +38,7 @@
     }
 }
 
+/* noinspection ALL */
 .description {
     max-width: rem(460px);
     margin: var(--mantine-spacing-xl) auto calc(var(--mantine-spacing-xl) * 1.5);
