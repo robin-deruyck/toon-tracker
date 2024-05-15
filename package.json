@@ -11,8 +11,11 @@
     "tauri": "tauri dev",
     "tauri:build": "tauri build",
     "test": "vitest dev",
+    "test:ci": "vitest -w false",
     "pretty": "prettier --write 'src/**/*.{ts,tsx,css}'",
-    "pretty:check": "prettier --check 'src/**/*.{ts,tsx,css}'"
+    "pretty:check": "prettier --check 'src/**/*.{ts,tsx,css}'",
+    "lint:fix": "oxlint src --fix",
+    "lint": "oxlint src"
   },
   "dependencies": {
     "@mantine/core": "^7.8.1",
@@ -47,6 +50,7 @@
     "@vitest/ui": "^1.5.3",
     "conventional-changelog-conventionalcommits": "^7.0.2",
     "jsdom": "^24.0.0",
+    "oxlint": "^0.3.5",
     "postcss": "^8.4.38",
     "postcss-preset-mantine": "^1.15.0",
     "postcss-simple-vars": "^7.0.1",
@@ -56,5 +60,8 @@
     "vitest": "^1.5.3",
     "prettier": "^3.2.5"
   },
+  "keywords": [],
+  "author": "@rdrco",
+  "license": "MIT",
   "packageManager": "pnpm@9.1.1+sha256.9551e803dcb7a1839fdf5416153a844060c7bce013218ce823410532504ac10b"
 }
