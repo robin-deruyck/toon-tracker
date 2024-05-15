@@ -1,5 +1,6 @@
 import { Flex, Paper } from '@mantine/core'
 import { SearchBar } from '../SearchBar'
+import { AddWebtoonButton } from '../AddWebtoonButton'
 import classes from './Toolbar.module.css'
 
 export const Toolbar = () => {
@@ -16,6 +17,7 @@ export const Toolbar = () => {
         gap={{ base: 'xs', sm: 'sm' }}
       >
         <SearchBar />
+        <AddWebtoonButton />
       </Flex>
     </Paper>
   )
