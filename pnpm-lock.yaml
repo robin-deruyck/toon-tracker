@@ -44,9 +44,6 @@ importers:
       i18next-browser-languagedetector:
         specifier: ^7.2.1
         version: 7.2.1
-      prettier:
-        specifier: ^3.2.5
-        version: 3.2.5
       react:
         specifier: ^18.2.0
         version: 18.3.1
@@ -56,12 +53,6 @@ importers:
       react-i18next:
         specifier: ^14.1.1
         version: 14.1.1(i18next@23.11.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      toon-tracker:
-        specifier: 'link:'
-        version: 'link:'
-      vitest:
-        specifier: ^1.5.3
-        version: 1.6.0(@types/node@20.12.12)(@vitest/ui@1.6.0)(jsdom@24.0.0)(sugarss@4.0.1(postcss@8.4.38))
       zustand:
         specifier: ^4.5.2
         version: 4.5.2(@types/react@18.3.2)(react@18.3.1)
@@ -117,6 +108,9 @@ importers:
       postcss-simple-vars:
         specifier: ^7.0.1
         version: 7.0.1(postcss@8.4.38)
+      prettier:
+        specifier: ^3.2.5
+        version: 3.2.5
       semantic-release:
         specifier: ^23.1.1
         version: 23.1.1(typescript@5.4.5)
@@ -126,6 +120,9 @@ importers:
       vite:
         specifier: ^5.0.0
         version: 5.2.11(@types/node@20.12.12)(sugarss@4.0.1(postcss@8.4.38))
+      vitest:
+        specifier: ^1.5.3
+        version: 1.6.0(@types/node@20.12.12)(@vitest/ui@1.6.0)(jsdom@24.0.0)(sugarss@4.0.1(postcss@8.4.38))
 
 packages:
 
