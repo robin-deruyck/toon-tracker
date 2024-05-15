@@ -4,12 +4,13 @@ on:
   push:
     branches:
       - main
+      - ci/ttk-build-web-desktop
 
 permissions:
   contents: read # for checkout
 
 jobs:
-  release:
+  publish-tag-release:
     name: Release
     runs-on: self-hosted
     permissions:
@@ -17,22 +18,33 @@ jobs:
       issues: write # to be able to comment on released issues
       pull-requests: write # to be able to comment on released pull requests
     steps:
-      - name: Checkout
+      - name: "@ - Checkout current repository"
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
+      - name: "@ - Setup node"
         uses: actions/setup-node@v4
         with:
           node-version: "20"
           cache: 'pnpm'
 
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v3.0.0
+      - name: "@ - Setup pnpm"
+        uses: pnpm/action-setup@v4
         with:
-          version: 9.1.1
           run_install: true
 
-      - name: Release
+#      - name: "@ - Run release"
+#        env:
+#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#        run: pnpm exec semantic-release
+
+      - name: "@ - Install Rust stable"
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: "@ - Install Rust cache"
+        uses: swatinem/rust-cache@v2
+        with:
+          workspaces: './src-tauri -> target'
+      - name: "@ - Run release"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: pnpm exec semantic-release
+        run: pnpm run tauri:build
