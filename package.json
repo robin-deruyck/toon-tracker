@@ -1,0 +1,52 @@
+{
+  "name": "toon-tracker",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri dev",
+    "test": "vitest dev",
+    "pretty": "prettier --write 'src/**/*.{ts,tsx,css}'",
+    "pretty:check": "prettier --check 'src/**/*.{ts,tsx,css}'"
+  },
+  "dependencies": {
+    "@mantine/core": "^7.8.1",
+    "@mantine/dates": "^7.8.1",
+    "@mantine/form": "^7.8.1",
+    "@mantine/hooks": "^7.9.1",
+    "@mantine/modals": "^7.8.1",
+    "@mantine/notifications": "^7.8.1",
+    "@tabler/icons-react": "^3.2.0",
+    "@tauri-apps/api": "^1",
+    "clsx": "^2.1.1",
+    "dexie": "^4.0.4",
+    "i18next": "^23.11.3",
+    "i18next-browser-languagedetector": "^7.2.1",
+    "prettier": "^3.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^14.1.1",
+    "toon-tracker": "link:",
+    "vitest": "^1.5.3",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1",
+    "@testing-library/react": "^15.0.5",
+    "@types/node": "^20.12.7",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.2.1",
+    "@vitest/ui": "^1.5.3",
+    "jsdom": "^24.0.0",
+    "postcss": "^8.4.38",
+    "postcss-preset-mantine": "^1.15.0",
+    "postcss-simple-vars": "^7.0.1",
+    "typescript": "^5.0.2",
+    "vite": "^5.0.0"
+  },
+  "packageManager": "pnpm@9.0.6+sha256.0624e30eff866cdeb363b15061bdb7fd9425b17bc1bb42c22f5f4efdea21f6b3"
+}
